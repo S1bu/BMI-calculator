@@ -15,15 +15,11 @@
         document.querySelector('.output').innerHTML = `${calculation} (Normal weight)<h1>Normal👍🏾</h1>`;
        }
         if(calculation >= 25.0||calculation >= 29.9){//overweight
-        document.querySelector('.output').innerHTML = `${calculation}(over weight)<h1>overweight 👎🏾</h1>`;
+        document.querySelector('.output').innerHTML = `${calculation}(over weight)<h1>Cut back on carbs champ ✋🏾</h1>`;
        }
        if(calculation >= 30){//obese
-        document.querySelector('.output').innerHTML = `${calculation}(Overweight)<h1>Obese 💀</h1>`;
+        document.querySelector('.output').innerHTML = `${calculation}(Obese)<h1>Free Gym membership at Virgin active 💀</h1>`;
        }
-       else{//default
-        document.querySelector('.output').innerHTML = `<h1>Input correct data</h1>`; 
-       } 
-       
     
     }
   
