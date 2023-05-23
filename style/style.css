@@ -1,3 +1,16 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    padding: 10px;
+    background-color: cornflowerblue;
+    margin-bottom: 20px;
+    border: 2px solid black;
+    color: white;
+    font-weight: 900;
+}
 #output{
     height: 200px;
     background-color: black;
@@ -21,6 +34,8 @@
 input{
     border: 1px solid black;
     border-radius:10px ;
+    text-align: center;
+    margin: auto;
 }
 .btn{
     background-color: cornflowerblue;
